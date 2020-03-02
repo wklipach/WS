@@ -6,7 +6,6 @@ import { LocationComponent } from './location/location.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
-
 // определение маршрутов
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
