@@ -59,8 +59,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "WS:build",
-            "port": 4201,
-            "disableHostCheck": true
+            "port": 4201
+            // "disableHostCheck": true
           },
           "configurations": {
             "production": {

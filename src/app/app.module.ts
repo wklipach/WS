@@ -4,11 +4,12 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { LocationComponent } from './location/location.component';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 
 // определение маршрутов
 const appRoutes: Routes = [
-  {path: '', component: AppComponent},
+  {path: '', component: HomeComponent},
   {path: 'location', component: LocationComponent }
 ];
 
@@ -16,7 +17,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    LocationComponent
+    LocationComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
