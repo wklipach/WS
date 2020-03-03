@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { LocationComponent } from './location/location.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { TreeRendererDirective } from './directive/tree-renderer.directive';
 
 // определение маршрутов
 const appRoutes: Routes = [
@@ -17,7 +18,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LocationComponent,
-    HomeComponent
+    HomeComponent,
+    TreeRendererDirective
   ],
   imports: [
     BrowserModule,
