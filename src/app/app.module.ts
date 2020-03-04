@@ -6,11 +6,13 @@ import { LocationComponent } from './location/location.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { TreeRendererDirective } from './directive/tree-renderer.directive';
+import { TestComponent } from './test/test.component';
 
 // определение маршрутов
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'location', component: LocationComponent }
+  {path: 'location', component: LocationComponent },
+  {path: 'test', component: TestComponent }
 ];
 
 
@@ -19,7 +21,8 @@ const appRoutes: Routes = [
     AppComponent,
     LocationComponent,
     HomeComponent,
-    TreeRendererDirective
+    TreeRendererDirective,
+    TestComponent
   ],
   imports: [
     BrowserModule,
