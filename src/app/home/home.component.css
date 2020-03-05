@@ -1,0 +1,10 @@
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+i {
+  margin: 0 10px;
+}
+.check {
+  margin: 0 10px;
+}

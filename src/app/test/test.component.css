@@ -32,12 +32,12 @@
 }
 .checkbox:hover input[type="checkbox"] + i:before,
 .radio:hover input[type="radio"] + i:before {
-  color: green;
+  color: #0570d9;
 }
 .checkbox input[type="checkbox"]:checked + i:before,
 .radio input[type="radio"]:checked + i:before {
   content: "\f046";
-  color: green;
+  color: #0570d9;
 }
 .checkbox input[type="checkbox"]:disabled + i:before,
 .checkbox input[type="checkbox"]:disabled:checked + i:before,
